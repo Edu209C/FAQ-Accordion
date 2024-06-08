@@ -8,8 +8,8 @@
 		hero_texts[i].addEventListener('click', function(){
 			
 			const iconMinus = this.querySelector('.icon__minus');
-            const iconPlus = this.querySelector('.icon__plus');
-            const answer = this.querySelector('.hero__answer');
+            		const iconPlus = this.querySelector('.icon__plus');
+            		const answer = this.querySelector('.hero__answer');
 			
 			if (answer.style.display == 'block' ) {
                 iconPlus.style.display = 'block';
