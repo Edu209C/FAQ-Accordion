@@ -12,16 +12,15 @@
             		const answer = this.querySelector('.hero__answer');
 			
 			if (answer.style.display == 'block' ) {
-                iconPlus.style.display = 'block';
-                iconMinus.style.display = 'none';
-                answer.style.display = 'none';
-            } else {
-                answer.style.display = 'block';
-                iconMinus.style.display = 'block';
-                iconPlus.style.display = 'none';
-            }
-		})
-		
+		                iconPlus.style.display = 'block';
+		                iconMinus.style.display = 'none';
+		                answer.style.display = 'none';
+	           	 } else {
+		                answer.style.display = 'block';
+		                iconMinus.style.display = 'block';
+		                iconPlus.style.display = 'none';
+		            }
+			})	
 	}
 
 
